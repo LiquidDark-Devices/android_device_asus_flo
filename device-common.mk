@@ -288,7 +288,8 @@ PRODUCT_PACKAGES += \
 # set default USB configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb \
-    ro.adb.secure=0
+    ro.adb.secure=0 \
+    ro.du.updater=flo
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
