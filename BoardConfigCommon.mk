@@ -76,6 +76,7 @@ TARGET_USES_SF_BYPASS := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_POST_PROCESSING := true
 TARGET_CUSTOM_DISPLAY_TUNING := true
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Enable dex-preoptimization to speed up first boot sequence
 ifeq ($(HOST_OS),linux)
