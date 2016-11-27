@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2011-2015 The Android Open-Source Project
+# Copyright (C) 2011-2016 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,9 +22,6 @@
 # Inherit some common stuff.
 $(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/asus/flo/full_flo.mk)
 
@@ -34,10 +31,7 @@ PRODUCT_NAME := du_flo
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7 2013
 PRODUCT_MANUFACTURER := ASUS
-PRODUCT_RESTRICT_VENDOR_FILES := false
+#PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Release name
 PRODUCT_RELEASE_NAME := flo
-
-#Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:6.0.0/MRA58K/1227136:user/release-keys PRIVATE_BUILD_DESC="razor-user 6.0.0 MRA58K 1227136 release-keys"

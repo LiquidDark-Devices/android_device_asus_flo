@@ -177,6 +177,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors
+
 PRODUCT_COPY_FILES += \
     device/asus/flo/audio_effects.conf:system/vendor/etc/audio_effects.conf
 
@@ -213,17 +214,17 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-        libloc_adapter \
-        libloc_eng \
-        libloc_api_v02 \
-        libloc_ds_api \
-        libloc_core \
-        libizat_core \
-        libgeofence \
-        libgps.utils \
-        gps.conf \
-        gps.msm8960 \
-        flp.msm8960
+    libloc_adapter \
+    libloc_eng \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libloc_core \
+    libizat_core \
+    libgeofence \
+    libgps.utils \
+    gps.conf \
+    gps.msm8960 \
+    flp.msm8960
 
 PRODUCT_PACKAGES += \
 	bdAddrLoader \
@@ -247,11 +248,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	media.aac_51_output_enabled=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-        debug.egl.recordable.rgba8888=1
+    debug.egl.recordable.rgba8888=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.qc.sensors.wl_dis=true \
-        ro.qualcomm.sensors.smd=true
+    ro.qc.sensors.wl_dis=true \
+    ro.qualcomm.sensors.smd=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qualcomm.cabl=1 \
