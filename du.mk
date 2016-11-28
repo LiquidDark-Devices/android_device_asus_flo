@@ -24,6 +24,7 @@ $(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/flo/full_flo.mk)
+$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := flo
@@ -31,7 +32,7 @@ PRODUCT_NAME := du_flo
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7 2013
 PRODUCT_MANUFACTURER := ASUS
-#PRODUCT_RESTRICT_VENDOR_FILES := false
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Release name
 PRODUCT_RELEASE_NAME := flo
