@@ -255,9 +255,6 @@
          and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOff">true</bool>
 
-    <!-- Specifies whether to decouple the interactive state of the device from the display on/off state. -->
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-
     <!-- Enable Doze and App Standby -->
     <bool name="config_enableAutoPowerModes">true</bool>
 
