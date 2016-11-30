@@ -22,7 +22,7 @@
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.carrier=wifi-only
 
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES += \
     device/asus/flo/fstab.flo:root/fstab.flo \
     device/asus/flo/init.flo.rc:root/init.flo.rc
 
