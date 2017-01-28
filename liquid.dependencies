@@ -1,0 +1,17 @@
+[
+ {
+   "repository": "LineageOS/android_external_stlport",
+   "target_path": "external/stlport",
+   "branch":      "cm-14.1"   
+ },
+ {
+   "repository": "TheMuppets/proprietary_vendor_asus",
+   "target_path": "vendor/asus/flo",
+   "branch":      "cm-14.1"
+ },
+ {
+   "repository": "LineageOS/android_kernel_google_msm",
+   "target_path": "kernel/google/msm",
+   "branch":      "cm-14.1"   
+ }
+]
