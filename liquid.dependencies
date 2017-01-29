@@ -5,8 +5,8 @@
    "branch":      "cm-14.1"
  },
  {
-   "repository": "LineageOS/android_kernel_google_msm",
+   "repository": "DirtyUnicorns/android_kernel_asus_flo",
    "target_path": "kernel/google/msm",
-   "branch":      "cm-14.1"   
+   "branch":      "n"   
  }
 ]
