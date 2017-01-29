@@ -5,8 +5,8 @@
     "branch":      "n"
  },
  {
-   "repository":  "DirtyUnicorns/android_vendor_asus/flo",
-   "target_path": "vendor/asus/flo",
+   "repository":  "DirtyUnicorns/android_vendor_asus",
+   "target_path": "vendor/asus",
    "branch":      "n"
  }
 ]
