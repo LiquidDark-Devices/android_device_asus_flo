@@ -6,7 +6,7 @@
  },
  {
    "repository":  "DirtyUnicorns/android_vendor_asus",
-   "target_path": "vendor/asus",
+   "target_path": "vendor/asus/flo",
    "branch":      "n"
  }
 ]
