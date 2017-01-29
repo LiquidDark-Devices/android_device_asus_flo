@@ -20,15 +20,15 @@
 # Everything in this directory will become public
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/liquid/config/common_full.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/flo/full_flo.mk)
-$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := flo
-PRODUCT_NAME := du_flo
+PRODUCT_NAME := liquid_flo
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7 2013
 PRODUCT_MANUFACTURER := ASUS
